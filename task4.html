@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            background-color: #555;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .hero img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .about, .projects, .contact {
+            margin-bottom: 50px;
+        }
+
+        .about h2, .projects h2, .contact h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .about p, .contact p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .projects .project {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .projects .project img {
+            width: 45%;
+            border-radius: 10px;
+        }
+
+        .projects .project div {
+            width: 50%;
+            padding-left: 20px;
+        }
+
+        .projects .project h3 {
+            margin-top: 0;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .projects .project p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #ff5e57;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home" class="hero">
+            <img src="your-photo.jpg" alt="Professional Photo">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a passionate web developer with expertise in creating beautiful and functional websites.</p>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm [Your Name], a web developer with a strong background in front-end and back-end development. I hold a degree in [Your Degree] from [Your University]. 
+                Over the years, I have worked on numerous projects that showcase my skills in HTML, CSS, JavaScript, and various frameworks and libraries.
+                My passion for coding started at a young age, and I have continually developed my skills to stay current with the latest technologies.
+            </p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <div>
+                    <h3>Project One</h3>
+                    <p>This is a brief description of your project. Explain what it does, the technologies used, and your role in the project.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <div>
+                    <h3>Project Two</h3>
+                    <p>This is a brief description of another project. Highlight the challenges you overcame and the value it added.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:abcd@example.com">abcd@example.com</a>. I'm always open to discussing new projects or opportunities to collaborate.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved. | Designed by [Your Name]</p>
+    </footer>
+
+</body>
+</html>
